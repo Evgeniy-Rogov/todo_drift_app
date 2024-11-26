@@ -27,7 +27,7 @@ class Database extends _$Database {
   int get schemaVersion => 1;
 
   static QueryExecutor _openConnection() {
-    return driftDatabase(name: 'todo_app_database');
+    return driftDatabase(name: 'todo_drift_app_database');
   }
 
   @override
