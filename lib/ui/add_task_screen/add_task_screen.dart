@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todo_app/ui/add_task_screen/add_task_view_model.dart';
+import 'package:todo_drift_app/ui/add_task_screen/add_task_view_model.dart';
 
 class AddTaskScreen extends StatelessWidget {
   final int caseId;

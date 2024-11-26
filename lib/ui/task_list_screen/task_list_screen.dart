@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:provider/provider.dart';
-import 'package:todo_app/domain/entities/edit_task_screen_data.dart';
-import 'package:todo_app/ui/task_list_screen/task_list_view_model.dart';
+import 'package:todo_drift_app/domain/entities/edit_task_screen_data.dart';
+import 'package:todo_drift_app/ui/task_list_screen/task_list_view_model.dart';
 
 class TaskListScreen extends StatelessWidget {
   final int caseId;

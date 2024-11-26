@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todo_app/domain/entities/task_list_argument.dart';
-import 'package:todo_app/ui/edit_case_screen/edit_case_view_model.dart';
+import 'package:todo_drift_app/domain/entities/task_list_argument.dart';
+import 'package:todo_drift_app/ui/edit_case_screen/edit_case_view_model.dart';
 
 class EditCaseScreen extends StatelessWidget {
   final TaskListArguments taskListArguments;

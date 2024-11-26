@@ -1,5 +1,5 @@
 import 'package:drift/drift.dart';
-import 'package:todo_app/domain/database/database.dart';
+import 'package:todo_drift_app/domain/database/database.dart';
 
 abstract class AbstractCasesRepository {
   Future<List<Case>> getCases();

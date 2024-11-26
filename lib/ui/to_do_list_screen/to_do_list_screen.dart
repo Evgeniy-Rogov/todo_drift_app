@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_slidable/flutter_slidable.dart';
 import 'package:provider/provider.dart';
-import 'package:todo_app/domain/entities/task_list_argument.dart';
-import 'package:todo_app/ui/to_do_list_screen/to_do_list_view_model.dart';
+import 'package:todo_drift_app/domain/entities/task_list_argument.dart';
+import 'package:todo_drift_app/ui/to_do_list_screen/to_do_list_view_model.dart';
 
 class ToDoListSqreen extends StatelessWidget {
   const ToDoListSqreen({super.key});

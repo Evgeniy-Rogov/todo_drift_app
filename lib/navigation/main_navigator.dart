@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/domain/entities/edit_task_screen_data.dart';
-import 'package:todo_app/domain/entities/task_list_argument.dart';
-import 'package:todo_app/domain/factories/screen_factory.dart';
+import 'package:todo_drift_app/domain/entities/edit_task_screen_data.dart';
+import 'package:todo_drift_app/domain/entities/task_list_argument.dart';
+import 'package:todo_drift_app/domain/factories/screen_factory.dart';
 
 abstract class MainNavigatorRoutesNames {
   static const toDoList = '/';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/domain/repositories/tasks_repository.dart';
+import 'package:todo_drift_app/domain/repositories/tasks_repository.dart';
 
 class AddTaskViewModel with ChangeNotifier {
   final _tasksRepositoty = TasksRepository();

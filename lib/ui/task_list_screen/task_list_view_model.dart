@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:todo_app/domain/database/database.dart';
-import 'package:todo_app/domain/entities/edit_task_screen_data.dart';
-import 'package:todo_app/domain/repositories/tasks_repository.dart';
-import 'package:todo_app/navigation/main_navigator.dart';
+import 'package:todo_drift_app/domain/database/database.dart';
+import 'package:todo_drift_app/domain/entities/edit_task_screen_data.dart';
+import 'package:todo_drift_app/domain/repositories/tasks_repository.dart';
+import 'package:todo_drift_app/navigation/main_navigator.dart';
 
 class TaskListViewModel with ChangeNotifier {
   final int caseId;

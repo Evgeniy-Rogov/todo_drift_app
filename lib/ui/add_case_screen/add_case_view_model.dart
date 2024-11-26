@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:todo_app/domain/repositories/cases_repository.dart';
+import 'package:todo_drift_app/domain/repositories/cases_repository.dart';
 
 class AddCaseViewModel with ChangeNotifier {
   final _casesRepository = CasesRepository();

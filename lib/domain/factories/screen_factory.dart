@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todo_app/domain/entities/edit_task_screen_data.dart';
-import 'package:todo_app/domain/entities/task_list_argument.dart';
-import 'package:todo_app/ui/add_case_screen/add_case_screen.dart';
-import 'package:todo_app/ui/add_case_screen/add_case_view_model.dart';
-import 'package:todo_app/ui/add_task_screen/add_task_view_model.dart';
-import 'package:todo_app/ui/add_task_screen/add_task_screen.dart';
-import 'package:todo_app/ui/edit_case_screen/edit_case_screen.dart';
-import 'package:todo_app/ui/edit_case_screen/edit_case_view_model.dart';
-import 'package:todo_app/ui/edit_task_screen/edit_task_screen.dart';
-import 'package:todo_app/ui/edit_task_screen/edit_task_view_model.dart';
-import 'package:todo_app/ui/task_list_screen/task_list_screen.dart';
-import 'package:todo_app/ui/task_list_screen/task_list_view_model.dart';
-import 'package:todo_app/ui/to_do_list_screen/to_do_list_screen.dart';
-import 'package:todo_app/ui/to_do_list_screen/to_do_list_view_model.dart';
+import 'package:todo_drift_app/domain/entities/edit_task_screen_data.dart';
+import 'package:todo_drift_app/domain/entities/task_list_argument.dart';
+import 'package:todo_drift_app/ui/add_case_screen/add_case_screen.dart';
+import 'package:todo_drift_app/ui/add_case_screen/add_case_view_model.dart';
+import 'package:todo_drift_app/ui/add_task_screen/add_task_view_model.dart';
+import 'package:todo_drift_app/ui/add_task_screen/add_task_screen.dart';
+import 'package:todo_drift_app/ui/edit_case_screen/edit_case_screen.dart';
+import 'package:todo_drift_app/ui/edit_case_screen/edit_case_view_model.dart';
+import 'package:todo_drift_app/ui/edit_task_screen/edit_task_screen.dart';
+import 'package:todo_drift_app/ui/edit_task_screen/edit_task_view_model.dart';
+import 'package:todo_drift_app/ui/task_list_screen/task_list_screen.dart';
+import 'package:todo_drift_app/ui/task_list_screen/task_list_view_model.dart';
+import 'package:todo_drift_app/ui/to_do_list_screen/to_do_list_screen.dart';
+import 'package:todo_drift_app/ui/to_do_list_screen/to_do_list_view_model.dart';
 
 class ScreenFactory {
   Widget makeToDoListSqreen(BuildContext context) => ChangeNotifierProvider(

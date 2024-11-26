@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:todo_app/domain/entities/edit_task_screen_data.dart';
-import 'package:todo_app/ui/edit_task_screen/edit_task_view_model.dart';
+import 'package:todo_drift_app/domain/entities/edit_task_screen_data.dart';
+import 'package:todo_drift_app/ui/edit_task_screen/edit_task_view_model.dart';
 
 class EditTaskScreen extends StatelessWidget {
   final EditTaskScreenData data;
