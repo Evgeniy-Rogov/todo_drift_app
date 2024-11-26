@@ -1,16 +1,13 @@
-# todo_drift_app
+# TODO_DRIFT_APP
 
 A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a implementation TODO App with Drift.
 
-A few resources to get you started if this is your first Flutter project:
+Drift is a reactive persistence library for Flutter and Dart, built on top of SQLite.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Link to Drift on pub.dev:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Drift package](https://pub.dev/packages/drift)
